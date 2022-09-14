@@ -1,0 +1,24 @@
+var obj={
+  Name:"santhoshkumar",
+  Phonenumber:1234564789,
+  Email:"someone@example.com",
+  Url:"slystersanto@usersgithubnoreply.com",
+  Address:"popular Apartments NO1 big street",
+  Region:"India",
+  State:"Tamilnadu",
+  Zipcode:123456,
+  Maritalstatus:"single",
+  LanguagesKnown:"Tamil",
+  Schoolings:"XYZ Higher Secondary School",
+  PostGraduate:"Popular Deemed University",
+  WorkExperience:4 ,
+  Designation:"quality assistant",
+  CompanyName:"Popular company",
+  Awards:"Nil",
+  Skills:"programming Languages",
+  Interests:"solo rider violinist"
+};
+
+for (var key in obj){
+ console.log(key,obj[key]); 
+}
